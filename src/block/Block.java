@@ -22,7 +22,6 @@ public class Block {
 	int score=0;
 	int b=400;
 	int c=200;
-	int d=0;
 	int f=0;
 	boolean first = false;
 	int change=0;
@@ -147,7 +146,7 @@ public void start() {
 			g.setColor(Color.BLACK);
 			g.drawString("Á¡¼ö:"+score, 600, 100);
 			
-			for(Shape block:blocks) {
+			for(Shape block:blocks){
 			if(f==0) {
 			g.setColor(Color.BLUE);
 			g.fillRect(c, headY, 70, 100);
