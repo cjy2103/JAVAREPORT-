@@ -146,7 +146,6 @@ public void start() {
 			g.setColor(Color.BLACK);
 			g.drawString("Á¡¼ö:"+score, 600, 100);
 			
-			for(Shape block:blocks){
 			if(f==0) {
 			g.setColor(Color.BLUE);
 			g.fillRect(c, headY, 70, 100);
@@ -165,7 +164,7 @@ public void start() {
 			}
 			}
 		}
-	}
+	
 	public class Shape {
 		public Shape() {
 		}
